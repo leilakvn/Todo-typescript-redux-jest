@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+*:focus {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.selected {
+  background-color: #696672 !important;
+}
+.tabButton {
+  width: 100px;
+  border: 0;
+  background-color: white;
+  border-radius: 5px;
+}
